@@ -127,3 +127,44 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* 
+ Usando le CSS media queries, trasforma il layout della repo ‘html-responsive-wannabe’ in una versione navigabile quando la larghezza dello schermo diventa:
+tablet: dai 768px in giù
+mobile: dai 480px in giù */
+
+@media screen and (min-width:769px) and (max-width:1139px) {
+    div.container {
+        width: 100%;
+    }
+        
+}
+
+/* TABLET */
+
+@media screen and (max-width:768px) {
+    div.container {
+        width: auto;
+        margin: 0 auto;
+        padding:0 ;
+    }
+        
+}
+
+
+/* MOBILE */
+@media screen and (max-width:480px) {
+
+    .row {
+        display: inline-block;
+    }
+
+    .lessons .col, .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+        
+}
