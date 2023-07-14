@@ -144,9 +144,9 @@ mobile: dai 480px in giù */
 
 @media screen and (max-width:768px) {
     div.container {
-        width: auto;
+        width: 100%;
         margin: 0 auto;
-        padding:0 ;
+        padding:0;
     }
         
 }
@@ -156,11 +156,12 @@ mobile: dai 480px in giù */
 @media screen and (max-width:480px) {
 
     .row {
-        display: inline-block;
+        display: block;
     }
 
     .lessons .col, .steps .col {
         width: 100%;
+        margin-bottom:  2.2rem;
     }
 
     .why-us .col-left, .why-us .col-right {
