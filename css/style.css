@@ -133,7 +133,7 @@ img {
 tablet: dai 768px in giù
 mobile: dai 480px in giù */
 
-@media screen and (min-width:769px) and (max-width:1139px) {
+@media screen and (min-width:769px) and (max-width:1160px) {
     div.container {
         width: 100%;
     }
